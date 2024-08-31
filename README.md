@@ -38,7 +38,7 @@ download the dataset: [WI](https://pan.baidu.com/s/1lgG6BX1Ac9b8_gAwSMOQ0g) (cod
 
 ## trained model
 
-We provide .pth of our IDDet trained on the WI dataset: [IDDet](https://pan.baidu.com/s/1Wgyw77YA5kpZQVOfXXrurw?pwd=kies)
+We provide .pth of our IDDet trained on the WI dataset: [IDDet.pth](https://pan.baidu.com/s/1Wgyw77YA5kpZQVOfXXrurw?pwd=kies)
 
 ## results (qualitative results)
 
