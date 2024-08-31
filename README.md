@@ -8,7 +8,7 @@ IDDet is a diffusion-based detector for quickly and accurately detecting insulat
 
 *Fig. 1 framework of our proposed IDDet. The backbone extracts feature maps from the input Insulator defects image. Taking noisy bounding boxes and multiscale features as input, the detector then predicts the target category, positions (center coordinates), and sizes (widths and heights) of bounding boxes.*
 
-## Configs
+## configs
 
 #### requires
 
@@ -20,16 +20,16 @@ PyTorch 1.8+
 
 [MMDetection](https://github.com/open-mmlab/mmdetection)
 
-#### Training
+#### training
 
 ```bash
 python tools/train.py IDDet/configs/config.py
 ```
 
-#### Testing
+#### testing
 
 ```bash
-python tools/test.py IDDet/configs/config.py
+python tools/test.py IDDet/configs/config.py IDDet.pth
 ```
 
 ## datasets
@@ -38,15 +38,29 @@ download the dataset: [WI](https://pan.baidu.com/s/1lgG6BX1Ac9b8_gAwSMOQ0g) (cod
 
 ## trained model
 
-We provide .pth of our IDDet trained on the WI dataset: [IDDet]()
+We provide .pth of our IDDet trained on the WI dataset: [IDDet](https://pan.baidu.com/s/1kuch1eSuSwSj72t5yiyjTA?pwd=dv06 )
 
 ## results (qualitative results)
+
+![](./results/tab.1.png)
 
 <img title="" src="./results/Tab.2.png" alt="" data-align="inline">
 
-*fig. 2 Experimental results of comparing methods in term of the mAP$_{50}$, F$_1$-score and FPS, where the best result in each column is marked in boldface.*
+![](./results/tab.3.png)
+
+![](./results/tab.4.png)
 
 ## results (qualitative results)
+
+![](./results/fig.4.png)
+
+*Fig. 4. The classification loss and bounding box regression loss during training.*
+
+---
+
+
+
+
 
 ![](./results/fig.5.png)
 
