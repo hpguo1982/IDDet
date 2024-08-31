@@ -38,7 +38,7 @@ download the dataset: [WI](https://pan.baidu.com/s/1lgG6BX1Ac9b8_gAwSMOQ0g) (cod
 
 ## trained model
 
-We provide .pth of our IDDet trained on the WI dataset: [IDDet](https://pan.baidu.com/s/1kuch1eSuSwSj72t5yiyjTA?pwd=dv06 )
+We provide .pth of our IDDet trained on the WI dataset: [IDDet](https://pan.baidu.com/s/1Wgyw77YA5kpZQVOfXXrurw?pwd=kies)
 
 ## results (qualitative results)
 
@@ -57,10 +57,6 @@ We provide .pth of our IDDet trained on the WI dataset: [IDDet](https://pan.baid
 *Fig. 4. The classification loss and bounding box regression loss during training.*
 
 ---
-
-
-
-
 
 ![](./results/fig.5.png)
 
